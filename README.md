@@ -1,51 +1,51 @@
 # Faculty-Consultation-log
 The Faculty Consultation Log is a digital record-keeping system designed to track, document, and manage academic advising sessions between faculty members and students. It streamlines the documentation process, ensuring clear communication and continuity in student mentorship.
 
-Git Hub description
+# Git Hub description
 Copy-paste this as your GitHub repo description:
 📋 An elegant academic ledger for logging, tracking & visualizing student–faculty consultations — featuring live statistics, distribution charts, search & filters, CRUD operations, print-ready reports, and JSON export/import. Built with vanilla HTML, CSS & JavaScript.
 Topics / Tags to add:
 
 consultation-log student-faculty academic-tool vanilla-javascript crud-app localstorage single-page-app university education ledger data-visualization
 
-✨ Features
+# Features
 📊 Live Dashboard Sidebar
 Real-time statistics — Total records, Pending, Completed, and This Week counts update instantly
 Purpose breakdown chart — Horizontal bar visualization showing distribution across advising categories (Academic Advising, Thesis/Project Guidance, Grade Concerns, Career Guidance, Personal Concern, Other)
-📝 Full CRUD Operations
+# 📝 Full CRUD Operations
 Log new consultations via a slide-in drawer panel with form validation
 Edit existing records — pre-populated form for quick updates
 Delete records with a confirmation modal to prevent accidental data loss
 View record details in a dedicated modal with all consultation information
-🔍 Advanced Search & Filtering
+# 🔍 Advanced Search & Filtering
 Full-text search across student name, student ID, faculty name, purpose, department, and notes
 Multi-filter dropdowns — filter by Faculty, Status (Pending / Completed / Cancelled), and Purpose simultaneously
 Active filters banner with a one-click "Clear all filters" option
 Dynamic record count showing filtered vs. total entries
-💾 Data Persistence & Portability
+# 💾 Data Persistence & Portability
 Auto-save to LocalStorage — data persists across browser sessions without any server
 Export to JSON — download all consultation records as a structured .json backup file
 Import from JSON — restore records from a previously exported backup file
 Reset to sample data — one-click restore to built-in demo records
-🖨️ Print-Ready Reports
+# 🖨️ Print-Ready Reports
 Dedicated print stylesheet — hides sidebar, toolbar, and action buttons for clean, formal department reports
 Produces a professional table layout suitable for submission or archival
-🎨 Premium Academic Design
+# 🎨 Premium Academic Design
 Parchment-inspired color palette — warm, scholarly aesthetic with gold accents
 Typography system — Fraunces (serif headings), Inter (sans body), JetBrains Mono (IDs/code)
 Editable header fields — click to customize Department Name and Academic Term directly in the UI
 Status badges with color-coded indicators (Pending = amber, Completed = green, Cancelled = red)
 Toast notifications for user feedback on all actions
 Smooth micro-animations — slide-in panels, modal scale transitions, toast entrance effects
-📱 Responsive Design
+# 📱 Responsive Design
 Fully responsive layout from desktop (1600px) down to mobile (< 640px)
 Sidebar collapses to horizontal layout on tablets
 Form and modals adapt to smaller screens
-♿ Accessibility
+# ♿ Accessibility
 Semantic HTML5 with proper ARIA attributes (role="dialog", aria-modal, aria-label)
 Keyboard navigation support (Escape key closes all dialogs)
 Screen-reader friendly labels on all interactive elements
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Layer	Technology
 Structure	HTML5 (Semantic)
 Styling	Vanilla CSS (Custom Properties / CSS Variables)
@@ -55,7 +55,7 @@ Storage	Browser LocalStorage
 Icons	Inline SVG (Feather-style)
 Zero dependencies. No frameworks, no build tools, no npm packages. Just open index.html in any modern browser.
 
-🚀 Getting Started
+# 🚀 Getting Started
 Quick Start
 Clone the repository
 
@@ -107,7 +107,7 @@ Export: Click "Export" in the header → downloads a .json file
 Import: Click "Import" → select a previously exported .json file
 Customizing the Header
 Click on "Department of Computer Studies" or "A.Y. 2026–2027 (1st Semester)" in the header to edit them inline
-🎓 Educational Context
+# 🎓 Educational Context
 This project was designed as a first-year computer science student project that demonstrates:
 
 ✅ Arrays of Objects (data modeling)
@@ -119,7 +119,7 @@ This project was designed as a first-year computer science student project that 
 ✅ Form validation with error feedback
 ✅ Responsive CSS layout techniques
 ✅ Accessible UI patterns (ARIA, keyboard nav)
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome! Here are some ideas for improvements:
 
  Dark mode toggle
@@ -134,10 +134,10 @@ Create your feature branch (git checkout -b feature/dark-mode)
 Commit your changes (git commit -m 'Add dark mode toggle')
 Push to the branch (git push origin feature/dark-mode)
 Open a Pull Request
-📄 License
+# 📄 License
 This project is open source and available under the MIT License.
 
-🙏 Acknowledgements
+# 🙏 Acknowledgements
 Google Fonts — Fraunces, Inter, JetBrains Mono
 Feather Icons — SVG icon inspiration
 Built with ❤️ for the academic community
